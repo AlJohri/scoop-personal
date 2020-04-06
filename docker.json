@@ -12,8 +12,8 @@
             "pre_install": [
                 "if(is_admin) {",
                 "    if((Get-WindowsOptionalFeature -FeatureName Microsoft-Windows-Subsystem-Linux -Online).State -eq 'Disabled') {",
-                "        Write-Host 'Hyper-V is disabled. Enabling. Please restart PC before first start of Docker.' -f Yellow",
-                "        Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All",
+                "        Write-Host 'WSL is disabled. Enabling. Please restart PC before first start of Docker.' -f Yellow",
+                "        Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All -NoRestart",
                 "    }",
                 "}"
             ],
