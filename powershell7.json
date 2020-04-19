@@ -1,4 +1,5 @@
 {
   "version":  "7.0.0",
-  "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0/PowerShell-7.0.0-win-x64.msi"
+  "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0/PowerShell-7.0.0-win-x64.msi",
+  "hash": "876f4a64012a1fb024dccea696db00c5cd1a37c8dc9dfa2431c58cdf9f82950b"
 }
