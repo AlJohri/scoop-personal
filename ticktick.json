@@ -1,0 +1,5 @@
+{
+	"version":  "nightly",
+	"url": "https://ticktick.com/static/getApp/download?type=win64",
+	"innosetup": true
+}
